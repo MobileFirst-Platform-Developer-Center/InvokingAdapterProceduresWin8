@@ -1,13 +1,15 @@
 IBM MobileFirst Platform Foundation
 ===
-### Sample Name
+### Invoking adapter procedures in Windows Universal
 
 
 ### Usage
-Follow the instructions in the tutorials listed below.
+Follow the instructions in the tutorial(s) listed below.
 
 ### Tutorials
 
+**Windows Universal**
+https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/server-side-development-category/invoking-adapter-procedures-native-windows-8-applications/
 
 ### Supported Levels
 IBM MobileFirst Platform Foundation 7.1

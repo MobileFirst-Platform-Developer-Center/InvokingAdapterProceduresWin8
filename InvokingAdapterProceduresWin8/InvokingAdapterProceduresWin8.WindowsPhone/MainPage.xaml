@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="InvokingAdapterProceduresWin8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InvokingAdapterProceduresWin8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF3880C2">
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,35,0,0" TextWrapping="Wrap" Text="Invoking Adapter Procedures" VerticalAlignment="Top" Height="85" Width="auto" Foreground="White" TextAlignment="Center" FontSize="26" FontFamily="Segoe WP SemiLight"/>
+        <Button x:Name="InvokeProcedure" Content="Invoke Procedure" HorizontalAlignment="Center" Margin="46,149,44,0" VerticalAlignment="Top" Click="invokeProcedure_Click" FontSize="22" Height="70" Background="#FF3880C2" Foreground="#FFF9FBFF" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"/>
+        <Button Content="Connect Server" x:Name="ConnectServer" Click="ConnectServer_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="46,78,44,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"/>
+
+        <TextBlock x:Name="Console" HorizontalAlignment="Center" TextAlignment="Justify" Margin="10,220,0,0" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" Height="400" Width="380" FontSize="20" FontFamily="Segoe WP" DoubleTapped="ClearConsole" />
+
+        <Image HorizontalAlignment="Left" Height="80" Margin="160,540,0,0" VerticalAlignment="Top" Width="80" Source="Assets/icon.png" Opacity="0.7"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="IBM MobileFirst Platform Foundation" VerticalAlignment="Top" Height="49" Width="372"  Margin="10,10,0,0" FontFamily="Constantia" FontSize="22" TextAlignment="Center" Foreground="#FF94C6F3"/>
+
+    </Grid>
+</Page>
