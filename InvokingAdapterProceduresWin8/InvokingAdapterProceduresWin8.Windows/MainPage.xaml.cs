@@ -79,7 +79,7 @@ namespace InvokingAdapterProceduresWin8
 
         private void invokeProcedure_Click(object sender, RoutedEventArgs e)
         {
-            WLResourceRequest request = new WLResourceRequest("/adapters/RSSReader/getFeeds", "GET");
+            WLResourceRequest request = new WLResourceRequest("/adapters/RSSReader/getFeed", "GET");
 
             Object[] parameters = { 0 };
             MyInvokeListener listener = new MyInvokeListener(this);

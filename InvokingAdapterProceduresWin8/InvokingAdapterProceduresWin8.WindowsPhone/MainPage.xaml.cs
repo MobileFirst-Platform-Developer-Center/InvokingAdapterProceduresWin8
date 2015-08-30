@@ -79,7 +79,7 @@ namespace InvokingAdapterProceduresWin8
 
         private void invokeProcedure_Click(object sender, RoutedEventArgs e)
         {
-            Uri adapterPath = new Uri("/adapters/RSSReader/getFeeds");
+            Uri adapterPath = new Uri("/adapters/RSSReader/getFeed");
             WLResourceRequest request = new WLResourceRequest(adapterPath, "GET");
             
 
